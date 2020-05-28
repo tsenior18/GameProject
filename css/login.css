@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+/* CSS for the Title Section */
+
+.title-section {
+    margin-top: 150px;
+    height: 20vh;
+    position: relative;
+}
+
+.title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 50px;
+}
+
+.title h2 {
+    color: greenyellow;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title p {
+    color: greenyellow;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+/* Log In Section CSS  */
