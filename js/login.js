@@ -1,3 +1,4 @@
+// Gives you the Main title type writer
 var i = 0;
 var txt = 'Welcome to the Game - Log in Page';
 var speed = 50;
@@ -10,8 +11,7 @@ function typeWriter() {
     }
 }
 typeWriter();
-
-
+// Gives you the Sub Title type writer
 var b = 0;
 var text = 'Sign in to Access the Premium Game';
 var speeds = 50;

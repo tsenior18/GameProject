@@ -92,3 +92,41 @@ nav {
 }
 
 /* Log In Section CSS  */
+.main-login {
+    height: 20vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.sub-login {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-login span {
+    padding-top: 50px;
+}
+
+.sub-login input,
+#signin {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+input {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#signin {
+    border-radius: 20px;
+    margin-left: 20px;
+    background: slategrey;
+    color: greenyellow;
+    font-size: 20px;
+}
