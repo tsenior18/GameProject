@@ -8,10 +8,64 @@ body {
     background: black;
 }
 
+/* Section Containing the Nav bar */
+
+nav {
+    background: slategrey;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+}
+
+.main-nav {
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 5vh;
+    width: 200px;
+    text-align: center;
+    color: greenyellow;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sub-link {
+    width: 200px;
+}
+
+#sub-link li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#sub-link a {
+    color: greenyellow;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+#sub-link a:hover {
+    color: black;
+}
+
 /* CSS for the Title Section */
 
 .title-section {
-    margin-top: 150px;
+    margin-top: 60px;
     height: 20vh;
     position: relative;
 }
@@ -22,16 +76,16 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
 }
 
-.title h2 {
+#main-title {
     color: greenyellow;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.title p {
+#sub-title {
     color: greenyellow;
     font-size: 30px;
     font-family: sans-serif;
