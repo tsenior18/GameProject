@@ -24,3 +24,16 @@ function subtypeWriter() {
     }
 }
 subtypeWriter();
+
+
+var logPassword = $('#signin');
+
+logPassword.click(function () {
+    var logInput = $('#user').val();
+    var passInput = $('#pass').val();
+    if (logInput == 'tom' && passInput == 'tom') {
+        location.href = "https://www.google.com";
+    } else {
+        alert('Inavlid Credentials, Please try again!');
+    }
+})
