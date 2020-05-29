@@ -32,7 +32,7 @@ logPassword.click(function () {
     var logInput = $('#user').val();
     var passInput = $('#pass').val();
     if (logInput == 'tom' && passInput == 'tom') {
-        location.href = "https://www.google.com";
+        window.location = "../html/game.html";
     } else {
         alert('Inavlid Credentials, Please try again!');
     }
